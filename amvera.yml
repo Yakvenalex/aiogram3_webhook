@@ -1,0 +1,12 @@
+---
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.12
+build:
+  requirementsPath: requirements.txt
+run:
+  scriptName: aiogram_run.py
+  persistenceMount: /data
+  containerPort: 8000
